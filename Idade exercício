@@ -1,0 +1,19 @@
+package lpa;
+import java.util.Scanner;
+
+public class Maradona {
+
+	public static void main(String[] args) { 
+		
+	Scanner ler = new Scanner (System.in);
+	int Idade;
+	
+	System.out.print("Informar a idade: ");
+	Idade = ler.nextInt();
+		
+	String mensagem = Idade >= 18 ? "Maior de idade" : "Menor de idade";
+	System.out.println(mensagem); // Imprime "Maior de idade"
+
+	}
+
+}
