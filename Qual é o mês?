@@ -1,0 +1,58 @@
+package lpa;
+import java.util.Scanner;
+
+public class Ronaldo {
+	
+	public static void main(String[] args) {
+		
+	Scanner ler = new Scanner (System.in);
+	int Mes;
+	
+	System.out.print("Informar o mês de 1 a 12: ");
+	Mes = ler.nextInt();
+	
+	switch (Mes) {
+	case 1:
+		System.out.println("O mês escolhido foi Janeiro");
+		break;
+	case 2:
+		System.out.println("O mês escolhido foi Fevereiro");
+		break;
+	case 3:
+		System.out.println("O mês escolhido foi Março");
+		break;
+	case 4:
+		System.out.println("O mês escolhido foi Abril");
+		break;
+	case 5:
+		System.out.println("O mês escolhido foi Maio");
+		break;
+	case 6:
+		System.out.println("O mês escolhido foi Junho");
+		break;
+	case 7:
+		System.out.println("O mês escolhido foi Julho");
+		break;
+	case 8:
+		System.out.println("O mês escolhido foi Agosto");
+		break;
+	case 9:
+		System.out.println("O mês escolhido foi Setembro");
+		break;
+	case 10:
+		System.out.println("O mês escolhido foi Outubro");
+		break;
+	case 11:
+		System.out.println("O mês escolhido foi Novembro");
+		break;
+	case 12:
+		System.out.println("O mês escolhido foi Dezembro");
+		break;
+	default:
+		System.out.println("Esse mês não existe!");
+	}
+	ler.close();
+	
+   }
+
+}
